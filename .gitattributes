@@ -1,0 +1,30 @@
+# Normalização de fim de linha
+* text=auto
+
+# Tratamento explícito para alguns arquivos comuns
+*.js     text
+*.jsx    text
+*.ts     text
+*.tsx    text
+*.json   text
+*.css    text
+*.html   text
+*.md     text
+*.yml    text
+*.yaml   text
+*.svg    text
+*.env    text
+
+# Tratamento para arquivos de imagem e binários (não realizar conversões)
+*.png    binary
+*.jpg    binary
+*.jpeg   binary
+*.gif    binary
+*.ico    binary
+*.woff   binary
+*.woff2  binary
+*.ttf    binary
+*.eot    binary
+*.mp4    binary
+*.mov    binary
+*.zip    binary
