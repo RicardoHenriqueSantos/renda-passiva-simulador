@@ -1,12 +1,6 @@
 # Renda Passiva Simulador
 
-💸 Simulador de liberdade financeira.
-
-Simulador de liberdade financeira. Planeje sua renda passiva, alcance seus objetivos e viva com mais tranquilidade financeira.
-
-> "Quando humanos e inteligência artificial trabalham juntos, ideias saem do papel e se tornam realidade."
-
-Desenvolvido por Ricardo Henrique Santos com apoio da inteligência do ChatGPT (OpenAI).
+💸 Planeje sua renda passiva, alcance seus objetivos e viva com mais tranquilidade alcançando a sua liberdade financeira.
 
 <p align="center">
   <img src="public/img/logo.png" alt="Logo" width="200"/>
@@ -30,3 +24,5 @@ Desenvolvido por Ricardo Henrique Santos com apoio da inteligência do ChatGPT (
 ## 📜 Créditos
 - Desenvolvido por Ricardo Henrique Santos
 - Apoio da inteligência do ChatGPT (OpenAI)
+
+> "Quando humanos e inteligência artificial trabalham juntos, ideias saem do papel e se tornam realidade."
