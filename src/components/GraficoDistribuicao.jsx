@@ -19,16 +19,37 @@ export default function GraficoDistribuicao({ dados }) {
             cx="50%"
             cy="50%"
             outerRadius={100}
-            label={({ name, percent }) => `${name}: ${(percent * 100).toFixed(0)}%`}
-            labelLine={false} // Remove as linhas externas dos labels
+            innerRadius={50} // 🔥 Transformando em pizza com buraco (donut chart)
           >
             {data.map((_, index) => (
               <Cell key={`cell-${index}`} fill={COLORS[index % COLORS.length]} />
             ))}
           </Pie>
-          <Legend verticalAlign="bottom" height={36} />
+          <Legend
+            verticalAlign="bottom"
+            layout="horizontal"
+            iconType="circle"
+            wrapperStyle={{
+              paddingTop: 20,
+            }}
+          />
         </PieChart>
       </ResponsiveContainer>
+
+      {/* 🔥 Legenda adicional abaixo, super responsiva */}
+      <div className="flex flex-wrap justify-center gap-4 mt-4">
+        {data.map((entry, index) => (
+          <div key={index} className="flex items-center gap-2">
+            <div
+              className="w-4 h-4 rounded-full"
+              style={{ backgroundColor: COLORS[index % COLORS.length] }}
+            />
+            <span className="text-sm">
+              {entry.name}: {entry.value}%
+            </span>
+          </div>
+        ))}
+      </div>
     </div>
   );
 }
