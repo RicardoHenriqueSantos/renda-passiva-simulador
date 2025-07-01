@@ -19,8 +19,8 @@ const Sobre = () => {
             Através de simulações, análises e conteúdos educativos, buscamos
             democratizar o acesso ao conhecimento financeiro. Você poderá entender
             como funcionam investimentos como{" "}
-            <strong>renda fixa, ações, fundos imobiliários, Tesouro Direto e até
-            criptomoedas</strong>.
+            <strong>Renda Fixa, Ações, Fundos Imobiliários, Tesouro Direto e até
+            Criptomoedas</strong>.
           </p>
 
           <p className="mb-4 text-gray-700 text-lg">
