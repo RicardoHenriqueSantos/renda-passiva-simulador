@@ -1,3 +1,13 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.recharts-text {
+  font-size: 12px; /* 🔥 Padrão */
+}
+
+@media (max-width: 640px) {
+  .recharts-text {
+    font-size: 10px; /* 🔥 Menor no mobile */
+  }
+}
