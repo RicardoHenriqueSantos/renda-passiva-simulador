@@ -33,6 +33,18 @@ export default function GraficoDistribuicao({ dados }) {
           <Tooltip formatter={(value) => `${value}%`} />
         </PieChart>
       </ResponsiveContainer>
+      {/* 🔥 Legenda abaixo do gráfico */}
+      <div className="flex flex-wrap justify-center gap-4 mt-4">
+        {data.map((entry, index) => (
+          <div key={`legend-${index}`} className="flex items-center gap-2">
+            <div
+              className="w-4 h-4 rounded"
+              style={{ backgroundColor: COLORS[index % COLORS.length] }}
+            />
+            <span className="text-sm text-gray-700">{entry.name}</span>
+          </div>
+        ))}
+      </div>
     </div>
   );
 }
