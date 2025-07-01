@@ -8,7 +8,9 @@ Simulador de liberdade financeira. Planeje sua renda passiva, alcance seus objet
 
 Desenvolvido por Ricardo Henrique Santos com apoio da inteligência do ChatGPT (OpenAI).
 
-![Logo](public/img/logo.png)
+<p align="center">
+  <img src="public/img/logo.png" alt="Logo" width="200"/>
+</p>
 
 ## 🛠️ Tecnologias Utilizadas
 - ⚛️ React
