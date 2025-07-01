@@ -1,6 +1,6 @@
 # Renda Passiva Simulador
 
-💸 Planeje sua renda passiva, alcance seus objetivos e viva com mais tranquilidade alcançando a sua liberdade financeira.
+💸 Planeje sua Renda Passiva, alcance seus objetivos e viva com mais tranquilidade atingindo a sua Liberdade Financeira.
 
 <p align="center">
   <img src="public/img/logo.png" alt="Logo" width="200"/>
