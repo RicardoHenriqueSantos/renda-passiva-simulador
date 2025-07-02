@@ -139,7 +139,7 @@ export default function Conteudos() {
 
               <li>
                 • {" "}
-                <a href="https://indique.rico.com.vc/indicado?i=cdb400-RICARDO-6591801" className="text-[#22C55E] hover:underline" target="_blank"> Invista o seu Dinheiro de forma Segura, Rápida e Fácil </a> — Rico
+                <a href="https://www.rico.com.vc/" className="text-[#22C55E] hover:underline" target="_blank"> Invista o seu Dinheiro de forma Segura, Rápida e Fácil </a> — Rico
               </li>
 
               <li>

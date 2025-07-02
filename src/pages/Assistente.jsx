@@ -74,7 +74,8 @@ export default function Assistente() {
     if (
       texto.includes("fundo imobiliário") ||
       texto.includes("fundos imobiliários") ||
-      texto.includes("fii")
+      texto.includes("fii") ||
+      texto.includes("fiis")
     ) {
       return "🏢 **Fundos Imobiliários (FIIs):** Investimentos em imóveis ou títulos ligados ao setor imobiliário que pagam rendimentos mensais. Excelente para quem busca **Renda Passiva**.";
     }

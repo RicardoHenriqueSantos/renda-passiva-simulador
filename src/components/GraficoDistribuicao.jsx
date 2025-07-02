@@ -1,6 +1,6 @@
 import { PieChart, Pie, Cell, ResponsiveContainer, Tooltip } from "recharts";
 
-const COLORS = ["#0F766E", "#10B981", "#F59E0B", "#EF4444", "#6366F1"];
+const COLORS = ["#0F766E", "#10B981", "#F59E0B", "#EF4444", "#6366F1", "#254f57"];
 
 export default function GraficoDistribuicao({ dados }) {
   const data = dados.map((item) => ({

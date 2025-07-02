@@ -8,8 +8,9 @@ export default function Header() {
   return (
     <header className="bg-[#0F766E] text-white shadow">
       <nav className="container mx-auto flex items-center justify-between p-4">
-        <h1 className="text-xl font-bold">Renda Passiva Simulador</h1>
-
+          
+        <Link to="/" className="text-xl font-bold" onClick={() => setMenuAberto(false)}>Renda Passiva Simulador</Link>
+        
         {/* Botão de menu mobile */}
         <button
           onClick={() => setMenuAberto(!menuAberto)}
